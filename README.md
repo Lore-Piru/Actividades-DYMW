@@ -1,7 +1,6 @@
 <h1 align="center">Hola 👋 soy Lorena Perugini</h1>
 
 <h3 align="center">Una nerd de IT que está intentando ser un poco de todo y será licenciada de datos.</h3>
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=lore-piru&label=Profile%20views&color=0e75b6&style=flat" alt="lore-piru" /> </p>
 
 # Ejercicios Diseño y Maquetado Web
 
@@ -9,7 +8,7 @@ En este repositorio está la página web que armé para los ejercicios de la cla
 
 ## ¿Dónde puedo ver esta página? 📢
 
-**[¡Acá!](https://lore-piru.github.io/Portafolio/)** 💖
+**[¡Acá!](https://lore-piru.github.io/Actividades-DYMW/)** 💖
 
 ## Respecto a mí 😸
 

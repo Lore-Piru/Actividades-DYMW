@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Favicon de la página -->
+    <link rel="icon" type="image/png" href="../../imagenes/iconos/icono-ejercicios.png">
+
+    <!-- Hoja CSS Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="../../css/bootstrap.css">
+
+    <!-- Iconos -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Fuentes -->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Hoja CSS propia -->
+    <link rel="stylesheet" type="text/css" href="../../css/styles.css">
+
+
+
+    <title>Ejercicio 2 - Detectar errores</title>
+</head>
+
+<body class="home container-fluid" id="body">
+    <div class="row">
+        <div class="col-3 destopk" style="margin-left: 0%; padding-left: 0%; padding-right: 0%;">
+            <ul class="list-group pegajoso">
+                <a href="../../index.html">
+                    <li class="list-group-item" id="primer">
+                        <i class="fa fa-home fa-fw" aria-hidden="true"></i>
+                        Inicio
+                    </li>
+                </a>
+                <a href="../ej-1.html">
+                    <li class="list-group-item">
+                        <i class="fa fa-tags fa-fw" aria-hidden="true"></i>
+                        Ej. 1 - Etiquetas de texto
+                    </li>
+                </a>
+                <a href="#">
+                    <li class="list-group-item active">
+                        <i class="fa fa-search fa-fw" aria-hidden="true"></i>
+                        Ej. 2 - Detectar errores
+                    </li>
+                </a>
+                <a href="../ej-3.html">
+                    <li class="list-group-item">
+                        <i class="fa fa-list fa-fw" aria-hidden="true"></i>
+                        Ej. 3 - Listas
+                    </li>
+                </a>
+                <a href="../ej-4/ej-4.html">
+                    <li class="list-group-item">
+                        <i class="fa fa-columns fa-fw" aria-hidden="true"></i>
+                        Ej. 4 - Tablas básicas
+                    </li>
+                </a>
+                <a href="../ej-5/ej-5.html">
+                    <li class="list-group-item">
+                        <i class="fa fa-table fa-fw" aria-hidden="true"></i>
+                        Ej. 5 - Tablas avanzadas
+                    </li>
+                </a>
+                <a href="../ej-6.html">
+                    <li class="list-group-item">
+                        <i class="fa fa-folder-open-o fa-fw" aria-hidden="true"></i>
+                        Ej. 6 - Enlaces relativos
+                    </li>
+                </a>
+                <a href="../ej-7/ej-7.html">
+                    <li class="list-group-item">
+                        <i class="fa fa-link fa-fw" aria-hidden="true"></i>
+                        Ej. 7 - Enlaces
+                    </li>
+                </a>
+                <a href="../ej-8/ej-8.html">
+                    <li class="list-group-item">
+                        <i class="fa fa-anchor fa-fw" aria-hidden="true"></i>
+                        Ej. 8 - Enlaces y anclas
+                    </li>
+                </a>
+                <a href="../ej-9.html">
+                    <li class="list-group-item" id="ultimo">
+                        <i class="fa fa-code fa-fw" aria-hidden="true"></i>
+                        Ej. 9 - Escribir etiquetas
+                    </li>
+                </a>
+            </ul>
+        </div>
+
+        <div class="col-1 tablet" style="margin-left: 0%; padding-left: 0%; padding-right: 0%;">
+            <ul class="list-group pegajoso">
+                <a href="../../index.html">
+                    <li class="list-group-item text-center" id="primer">
+                        <i class="fa fa-home fa-fw" aria-hidden="true"></i>
+                    </li>
+                </a>
+                <a href="../ej-1.html">
+                    <li class="list-group-item text-center">
+                        <i class="fa fa-tags fa-fw" aria-hidden="true"></i>
+                    </li>
+                </a>
+                <a href="#">
+                    <li class="list-group-item text-center active">
+                        <i class="fa fa-search fa-fw" aria-hidden="true"></i>
+                    </li>
+                </a>
+                <a href="../ej-3.html">
+                    <li class="list-group-item text-center">
+                        <i class="fa fa-list fa-fw" aria-hidden="true"></i>
+                    </li>
+                </a>
+                <a href="../ej-4/ej-4.html">
+                    <li class="list-group-item text-center">
+                        <i class="fa fa-columns fa-fw" aria-hidden="true"></i>
+                    </li>
+                </a>
+                <a href="../ej-5/ej-5.html">
+                    <li class="list-group-item text-center">
+                        <i class="fa fa-table fa-fw" aria-hidden="true"></i>
+                    </li>
+                </a>
+                <a href="../ej-6.html">
+                    <li class="list-group-item text-center">
+                        <i class="fa fa-folder-open-o fa-fw" aria-hidden="true"></i>
+                    </li>
+                </a>
+                <a href="../ej-7/ej-7.html">
+                    <li class="list-group-item text-center">
+                        <i class="fa fa-link fa-fw" aria-hidden="true"></i>
+                    </li>
+                </a>
+                <a href="../ej-8/ej-8.html">
+                    <li class="list-group-item text-center">
+                        <i class="fa fa-anchor fa-fw" aria-hidden="true"></i>
+                    </li>
+                </a>
+                </a>
+                <a href="../ej-9.html">
+                    <li class="list-group-item text-center" id="ultimo">
+                        <i class="fa fa-code fa-fw" aria-hidden="true"></i>
+                    </li>
+                </a>
+            </ul>
+        </div>
+
+        <div class="fondo_rosa col-2 text-center celular pegajoso_celular">
+            </ul>
+            <div class="btn-group dropup ">
+                <button type="button" class="btn" data-bs-toggle="dropdown">
+                    <i class="fa fa-bars" style="font-size:50px;color:#9a02ffa6; padding: 1%;"></i>
+                </button>
+                <ul class="dropdown-menu text-center" style="padding: 0px;">
+                    <!-- Dropdown menu links -->
+                    <a class="sin-deco" href="../../index.html">
+                        <li class="list-group-item">
+                            <i class="fa fa-home fa-fw" aria-hidden="true"></i>
+                            Inicio
+                        </li>
+                    </a>
+                    <a class="sin-deco" href="../ej-1.html">
+                        <li class="list-group-item">
+                            <i class="fa fa-tags fa-fw" aria-hidden="true"></i>
+                            Ej - 1
+                        </li>
+                    </a>
+                    <a class="sin-deco" href="#">
+                        <li class="list-group-item active">
+                            <i class="fa fa-search fa-fw" aria-hidden="true"></i>
+                            Ej - 2
+                        </li>
+                    </a>
+                    <a class="sin-deco" href="../ej-3.html">
+                        <li class="list-group-item">
+                            <i class="fa fa-list fa-fw" aria-hidden="true"></i>
+                            Ej - 3
+                        </li>
+                    </a>
+                    <a class="sin-deco" href="../ej-4/ej-4.html">
+                        <li class="list-group-item">
+                            <i class="fa fa-columns fa-fw" aria-hidden="true"></i>
+                            Ej - 4
+                        </li>
+                    </a>
+                    <a class="sin-deco" href="../ej-5/ej-5.html">
+                        <li class="list-group-item">
+                            <i class="fa fa-table fa-fw" aria-hidden="true"></i>
+                            Ej - 5
+                        </li>
+                    </a>
+                    <a class="sin-deco" href="../ej-6.html">
+                        <li class="list-group-item">
+                            <i class="fa fa-folder-open-o fa-fw" aria-hidden="true"></i>
+                            Ej - 6
+                        </li>
+                    </a>
+                    <a class="sin-deco" href="../ej-7/ej-7.html">
+                        <li class="list-group-item">
+                            <i class="fa fa-link fa-fw" aria-hidden="true"></i>
+                            Ej - 7
+                        </li>
+                    </a>
+                    <a class="sin-deco" href="../ej-8/ej-8.html">
+                        <li class="list-group-item">
+                            <i class="fa fa-anchor fa-fw" aria-hidden="true"></i>
+                            Ej - 8
+                        </li>
+                    </a>
+                    </a>
+                    <a class="sin-deco" href="../ej-9.html">
+                        <li class="list-group-item">
+                            <i class="fa fa-code fa-fw" aria-hidden="true"></i>
+                            Ej - 9
+                        </li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+
+        <div class="col-xl-8 col-md-8 col-sm-10 col-xs-12" style="margin:auto;  padding-left: 0%; padding-right: 0%;">
+            <!-- Header -->
+            <header class="col-12 mt-4 mb-4 text-center pegajoso_tablet">
+                <br>
+                <h4>Ejercicio 2 - Detectar errores</h4>
+            </header>
+
+            <!-- Header fijo-->
+            <section class="col-12 mb-4 text-center" id="header2">
+                <br>
+                <h4>Profesoras: <i>Mailén y Melisa Brandao</i></h4>
+            </section>
+
+            <!-- Parte principal-->
+            <main class="col-12">
+
+                <!-- Ejercicio-->
+                <section class="col-12 fondo_brillos_inv">
+                    <!-- Consigna -->
+                    <article class="col-12 fondo_celeste">
+                        <hr>
+                        <h2>Consigna:</h2>
+                        <hr>
+                        <p class="textos_largos">
+                            Corrige los errores que presenta el siguiente código.
+                        </p>
+                        <hr>
+                        <section class="contenedor_snippet">
+                            <pre class="prettyprint lang-html linenums prettyprinted">
+&lt;html lang=es>
+&lt;head>
+&lt;title>World Wide Web&lt;/title>
+&lt;/head>
+
+&lt;body>
+&lt;h1>World Wide Web&lt;/h1>
+&lt;p>
+En informática, la &lt;strong>&lt;em>World Wide Web&lt;/strong>&lt;/em> (WWW) o Red
+informática mundial comúnmente conocida como la web, es un sistema de
+distribución de documentos de hipertexto o hipermedios interconectados y
+accesibles vía Internet. Con un navegador web, un usuario visualiza sitios
+web compuestos de páginas web que pueden contener texto, imágenes, vídeos
+u otros contenidos multimedia, y navega a través de esas páginas usando
+hiperenlaces.
+
+&lt;h2>Historia&lt;/h2>
+
+&lt;p>
+La web se desarrolló entre marzo de 1989 y diciembre de 1990 por el inglés
+Tim Berners-Lee con la ayuda del belga Robert Cailliau mientras trabajaban
+en el CERN en Ginebra, Suiza, y publicado en 1992.
+&lt;/p>
+
+&lt;p>
+Desde entonces, Berners-Lee ha jugado un papel activo guiando el
+desarrollo de estándares web (como los lenguajes de marcado con los que se
+crean las páginas web), y en los últimos años ha abogado por su visión de
+una web semántica.
+&lt;/p>
+
+&lt;p>Fuente: &lt;em>Wikipedia&lt;/p>&lt;/em>
+
+&lt;/html></pre>
+                        </section>
+                        <hr>
+                        <article class="col-12 text-center">
+                            <a class="btn boton_fondo_violeta" href="ej-2-corregido.html" target="_blank">
+                                Se puede observar el resultado de este código aquí
+                            </a>
+                        </article>
+                        <hr>
+                    </article>
+                </section>
+                <!-- Espacio bonito-->
+                <div class="col-12 mt-4 mb-4">
+                </div>
+
+                <!-- Solución -->
+                <section class="col-12 fondo_brillos">
+                    <article class="col-12 fondo_violeta">
+                        <hr>
+                        <h2>Solución:</h2>
+                        <hr>
+                        <section class="contenedor_snippet">
+                            <pre class="prettyprint lang-html linenums prettyprinted">
+<b>&lt;!DOCTYPE html></b>
+&lt;html lang=es>
+
+&lt;head>
+    <b>&lt;meta charset="utf-8"></b>
+    &lt;title>World Wide Web&lt;/title>
+    <b>&lt;!-- &lt;Agregado estético>-->
+        &lt;link rel="icon" type="image/png" href="imagenes/icono-ejercicios.png">
+    &lt;!-- &lt;/Agregado estético>(?) --></b>
+&lt;/head>
+
+&lt;body>
+    <b>&lt;!-- Título-->
+    &lt;header></b>
+        &lt;h1>World Wide Web&lt;/h1>
+    <b>&lt;/header>
+        
+    &lt;!-- Parte principal-->
+    &lt;main>
+        &lt;!-- Primer texto-->
+        &lt;section></b>
+            &lt;p>
+                En informática, la &lt;strong>&lt;em>World Wide Web<b>&lt;/em>&lt;/strong></b> (WWW) o Red
+                informática mundial comúnmente conocida como la web, es un sistema de
+                distribución de documentos de hipertexto o hipermedios interconectados y
+                accesibles vía Internet. Con un navegador web, un usuario visualiza sitios
+                web compuestos de páginas web que pueden contener texto, imágenes, vídeos
+                u otros contenidos multimedia, y navega a través de esas páginas usando
+                hiperenlaces.
+            <b>&lt;/p></b>
+        <b>&lt;/section>
+        &lt;!-- Segundo texto-->
+        &lt;section></b>
+                &lt;h2>Historia&lt;/h2>
+                &lt;p>
+                    La web se desarrolló entre marzo de 1989 y diciembre de 1990 por el inglés
+                    Tim Berners-Lee con la ayuda del belga Robert Cailliau mientras trabajaban
+                    en el CERN en Ginebra, Suiza, y publicado en 1992.
+                &lt;/p>
+                &lt;p>
+                    Desde entonces, Berners-Lee ha jugado un papel activo guiando el
+                    desarrollo de estándares web (como los lenguajes de marcado con los que se
+                    crean las páginas web), y en los últimos años ha abogado por su visión de
+                    una web semántica.
+                &lt;/p>
+            <b>&lt;/section>
+    &lt;/main>
+
+    &lt;footer></b>
+        &lt;p>
+            Fuente:&lt;em>Wikipedia<b>&lt;/em>
+        &lt;/p>
+    &lt;/footer></b>
+<b>&lt;/body></b>
+
+&lt;/html></pre>
+                        </section>
+                        <hr>
+                        <article class="col-12 text-center">
+                            <a class="btn boton_fondo_celeste" href="ej-2-original.html" target="_blank">
+                                Se puede observar el resultado de este código aquí
+                            </a>
+                        </article>
+                        <hr>
+                        <section>
+                            <p class="textos_largos">
+                                Si bien comprendo que se ven iguales (por lo menos en mi navegador) no se ven iguales
+                                los
+                                códigos fuente.
+                            </p>
+                            <p class="textos_largos">
+                                Los cambios que realicé son los marcados en negrilla. También agregué los tabulados,
+                                cambie los espacios entre líneas y agregué comentarios para las secciones.
+                            </p>
+                            <p class="textos_largos">
+                                Por otro lado me peleé un poco con los temas para ponerle colores al snippet, me rendí y
+                                me
+                                dí cuenta que es hasta mucho mejor poner un screenshot. (Sí, cambié el tema del editor
+                                por
+                                estética)
+                            </p>
+                            <img src="../../imagenes/consignas/ejercicio_2_solucion.png"
+                                alt="Imagen del código anterior en un editor de texto."
+                                class="img al_80 borde_radio_60">
+                        </section>
+                        <hr>
+                    </article>
+                </section>
+
+                <!-- Espacio bonito con línea-->
+                <div class="col-12">
+                    <hr class="mt-4 mb-4">
+                </div>
+
+                <!-- Navejador de ejercicios reducido -->
+                <section class="text-center mb-4 col-12 fondo_compu">
+
+                    <article class="col-12 fondo_rosa">
+                        <hr>
+                        <h2>¡Más ejercicios!</h2>
+                        <hr>
+                    </article>
+
+                    <article class="col-12 fondo_rosa">
+                        <a href="../ej-1.html" class="btn boton_fondo_celeste">
+                            <i class="fa fa-arrow-left" style="font-size:24px;color:#9a02ffa6"></i>
+                            Ejercicio anterior
+                        </a>
+                        <a href="../../index.html" class="btn boton_fondo_celeste">
+                            <i class="fa fa-bars" style="font-size:24px;color:#9a02ffa6"></i>
+                            Menú principal
+                        </a>
+                        <a href="../ej-3.html" class="btn boton_fondo_celeste">
+                            <i class="fa fa-arrow-right" style="font-size:24px;color:#9a02ffa6"></i>
+                            Ejercicio siguiente
+                        </a>
+                    </article>
+                </section>
+            </main>
+
+            <!-- Espacio bonito con línea-->
+            <div class="col-12">
+                <hr class="mt-4 mb-4">
+            </div>
+
+            <!-- Footer -->
+            <footer class="col-12 mb-2 text-center">
+                <br>
+                <p>
+                    <b>Página hecha por <i>C. Lorena Perugini</i></b>
+                </p>
+            </footer>
+        </div>
+    </div>
+    <!--Scripts Bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <script src="../../js/bootstrap.bundle.js"></script>
+
+</body>
+
+</html>

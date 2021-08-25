@@ -258,6 +258,11 @@ li {
 
 /*Detalles generales*/
 
+.sin-padding-costados{
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
 .sin-deco{
     text-decoration: none !important;
 }
